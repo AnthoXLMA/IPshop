@@ -31,4 +31,4 @@ const Produit = () => {
   );
 };
 
-export default Produit; // ✅ obligatoire
+export default Produit;
