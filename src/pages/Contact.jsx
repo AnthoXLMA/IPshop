@@ -44,6 +44,4 @@ const Contact = () => {
   );
 };
 
-export default Contact; // ✅ indispensable
-Contact.jsx
-
+export default Contact;

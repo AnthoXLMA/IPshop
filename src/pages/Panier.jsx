@@ -36,4 +36,4 @@ const Panier = () => {
   );
 };
 
-export default Panier; // ✅ indispensable
+export default Panier;

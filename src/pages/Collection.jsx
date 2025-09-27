@@ -2,10 +2,10 @@ import React from "react";
 import ProductCard from "../components/ProductCard";
 
 const Collection = () => {
-  const produits = [
-    { id: 1, name: "Bougie Lavande", price: "25€", image: "/images/lavande.jpg" },
-    { id: 2, name: "Bougie Vanille", price: "28€", image: "/images/vanille.jpg" },
-    { id: 3, name: "Bougie Figue", price: "30€", image: "/images/figue.jpg" },
+    const produits = [
+    { id: 1, name: "Terre & Mer", price: "25€", image: "/images/lavande.jpg" },
+    { id: 2, name: "Gourmandise d'Armorique", price: "28€", image: "/images/vanille.jpg" },
+    { id: 3, name: "Ebène", price: "30€", image: "/images/figue.jpg" },
   ];
 
   return (
