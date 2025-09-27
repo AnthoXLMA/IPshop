@@ -16,7 +16,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-gray-800 font-medium">
-          {["Accueil", "A propos", "Collection", "Boutique", "Blog", "Contact"].map((item) => (
+          {["Accueil", "A propos", "Collection", "Shop", "Blog", "Contact"].map((item) => (
             <Link
               key={item}
               to={item === "Accueil" ? "/" : `/${item.toLowerCase().replace(/\s/g, "")}`}
@@ -39,7 +39,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white/95 backdrop-blur-md shadow-lg py-4 px-6 space-y-4">
-          {["Accueil", "A propos", "Collection", "Boutique", "Blog", "Contact"].map((item) => (
+          {["Accueil", "A propos", "Collection", "Shop", "Blog", "Contact"].map((item) => (
             <Link
               key={item}
               to={item === "Accueil" ? "/" : `/${item.toLowerCase().replace(/\s/g, "")}`}
