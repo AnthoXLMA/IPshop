@@ -19,4 +19,5 @@ const Experiences = () => {
   );
 };
 
-export default Experiences; // ✅ obligatoire
+export default Experiences;
+
