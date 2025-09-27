@@ -5,7 +5,7 @@ const HeroSection = ({ title, ctaText }) => {
     <section className="relative bg-gray-900 text-white h-[80vh] flex flex-col items-center justify-center text-center px-6">
       <h1 className="text-4xl md:text-6xl font-bold mb-6">{title}</h1>
       <p className="max-w-2xl mb-8">
-        Une collection de bougies pour vos instants raffinés.
+       Des bougies pour sublimer vos instants les plus savoureux.
       </p>
       <a
         href="/collection"
